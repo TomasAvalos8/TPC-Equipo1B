@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppResto.Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,10 @@ namespace AppResto
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            ProductoNegocio negocio = new ProductoNegocio();
+            dgvProductos.DataSource = negocio.listar();
+            dgvProductos.DataBind();
 
         }
     }

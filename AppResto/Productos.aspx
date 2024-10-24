@@ -17,45 +17,29 @@
 
     <div class="tab-content mt-3">
         <div class="tab-pane fade show active" id="Productos" role="tabpanel" aria-labelledby="home-tab">
-    <table class="table table-bordered border-primary">
-        <thead>
-            <tr>
-                <th scope="col">Nombre de producto</th>
-                <th scope="col">Descripcion</th>
-                <th scope="col">Precio</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Nombre</td>
-                <td>Descripcion</td>
-                <td>$</td>
-            </tr>
-            <tr>
-                <td>Nombre</td>
-                <td>Descripcion</td>
-                <td>$</td>
-            </tr>
-            <tr>
-                <td>Nombre</td>
-                <td>Descripcion</td>
-                <td>$</td>
-            </tr>
-        </tbody>
-    </table>
+
+            <asp:GridView ID="dgvProductos" runat="server" AutoGenerateColumns="false" cssclass="table table-bordered table-hover">
+               
+                <Columns>
+                    <asp:BoundField headertext="Id" DataField="Id"/>
+                    <asp:BoundField headertext="Nombre" DataField="Nombre"/>
+                    <asp:BoundField headertext="Descripcion" DataField="Descripcion"/>
+                    <asp:BoundField headertext="Precio" DataField="Precio"/>
+                </Columns>
+                
+            </asp:GridView>
+
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-outline-primary me-md-2" id="btnModi">Modificar </button>
+            </div>
+            
         </div>
         <div class="tab-pane fade" id="modificar" role="tabpanel" >
             <label for="exampleDataList" class="form-label">Modificar productos</label>
             <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Escriba para buscar producto...">
-            <datalist id="datalistOptions">
-                <option value="San Francisco">
-                <option value="New York">
-                <option value="Seattle">
-                <option value="Los Angeles">
-                <option value="Chicago">
-            </datalist>
         </div>
-
+        <br />
        
     </div>
 </div>
