@@ -6,19 +6,17 @@
         <div class="container-fluid bg-dark text-white">
     <ul class="nav nav-tabs">
         <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#mesas">Lista Productos</a>
+            <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#Productos">Lista Productos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#eliminar">Agregar Productos</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#modificar">Modificar Productos</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="Eliminar Productos"></a>
-        </li>
+      
       
     </ul>
 
     <div class="tab-content mt-3">
-        <div class="tab-pane fade show active" id="mesas" role="tabpanel" aria-labelledby="home-tab">
+        <div class="tab-pane fade show active" id="Productos" role="tabpanel" aria-labelledby="home-tab">
     <table class="table table-bordered border-primary">
         <thead>
             <tr>
@@ -46,8 +44,8 @@
         </tbody>
     </table>
         </div>
-        <div class="tab-pane fade" id="eliminar" role="tabpanel" >
-            <label for="exampleDataList" class="form-label">Buscar producto</label>
+        <div class="tab-pane fade" id="modificar" role="tabpanel" >
+            <label for="exampleDataList" class="form-label">Modificar productos</label>
             <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Escriba para buscar producto...">
             <datalist id="datalistOptions">
                 <option value="San Francisco">
@@ -58,12 +56,7 @@
             </datalist>
         </div>
 
-        <div class="tab-pane fade" id="EliProdu" role="tabpanel">
-
-
-
-            <p>Contenido de la tercera pestaña.</p>
-        </div>
+       
     </div>
 </div>
 
