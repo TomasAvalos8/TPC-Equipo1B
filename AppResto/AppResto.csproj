@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="Estilos.css" />
     <Content Include="Inicio.aspx" />
-    <Content Include="Insumos.aspx" />
+    <Content Include="Productos.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Pedidos.aspx" />
     <Content Include="Personalizar.aspx" />
@@ -84,12 +84,12 @@
     <Compile Include="Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Insumos.aspx.cs">
-      <DependentUpon>Insumos.aspx</DependentUpon>
+    <Compile Include="Productos.aspx.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Insumos.aspx.designer.cs">
-      <DependentUpon>Insumos.aspx</DependentUpon>
+    <Compile Include="Productos.aspx.designer.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>

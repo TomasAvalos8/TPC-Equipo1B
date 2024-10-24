@@ -48,6 +48,23 @@
         transform: translateY(-2px);
     }
 
+.nav-tabs {
+    background-color: #343a40; /* Color de fondo oscuro */
+}
 
+    .nav-tabs .nav-link {
+        color: #ffffff; /* Color de texto blanco */
+    }
+
+        .nav-tabs .nav-link.active {
+            background-color: #495057; /* Color de fondo para la pestaña activa */
+            color: #ffffff; /* Color de texto para la pestaña activa */
+        }
+
+        .nav-tabs .nav-link:hover {
+            background-color: #495057; /* Color de fondo al pasar el ratón */
+        }
+
+        
 
 
