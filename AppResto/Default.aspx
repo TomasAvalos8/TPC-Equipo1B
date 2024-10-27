@@ -36,7 +36,8 @@
 
                 <a class="btn btn-primary" href="Inicio.aspx" role="button">Ingresar</a>
 
-
+                <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" OnClick="btnIngresar_Click" />
+                
             </div>
             <div class="col-4"></div>
         </div>

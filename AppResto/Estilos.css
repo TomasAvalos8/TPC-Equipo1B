@@ -65,6 +65,15 @@
             background-color: #495057; /* Color de fondo al pasar el ratón */
         }
 
-        
+/*#buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
 
-
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}*/

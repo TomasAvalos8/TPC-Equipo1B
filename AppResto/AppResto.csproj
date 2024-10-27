@@ -66,6 +66,7 @@
   <ItemGroup>
     <Content Include="Estilos.css" />
     <Content Include="Inicio.aspx" />
+    <Content Include="Java\Java.js" />
     <Content Include="Productos.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Pedidos.aspx" />
@@ -75,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dominio\Productos.cs" />
+    <Compile Include="Dominio\Usuario.cs" />
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -84,6 +86,7 @@
     </Compile>
     <Compile Include="Negocio\AccesoDatos.cs" />
     <Compile Include="Negocio\ProductoNegocio.cs" />
+    <Compile Include="Negocio\UsuarioNegocio.cs" />
     <Compile Include="Productos.aspx.cs">
       <DependentUpon>Productos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

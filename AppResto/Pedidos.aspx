@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Pedidos.aspx.cs" Inherits="AppResto.Pedidos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Estilos.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%--<div class="bg-dark text-white p-2">
@@ -39,43 +40,130 @@
             <tr>
                 <th scope="col">Num Pedido</th>
                 <th scope="col">Nombre</th>
-                <th scope="col">Apellido</th>
                 <th scope="col">Descripcion</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>Ramiro Blanco </td>
+                <td>Milanesa con papas fritas </td>
             </tr>
             <tr>
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>Tomas Avalos</td>
+                <td>Canelones</td>
             </tr>
             <tr>
                 <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td >Claudio Blanco</td>
+                <td >Hamburguesa</td>
             </tr>
         </tbody>
     </table>
     <button type="button" class="btn btn-primary" id="btnAgregar">Agregar</button>
     <button type="button" class="btn btn-primary" id="btnModificar">Modificar</button>
     <button type="button" class="btn btn-primary" id="btnEliminar">Eliminar</button>
-            
         </div>
         <div class="tab-pane fade" id="mostrador" role="tabpanel" >
             <p>Contenido de la segunda pestaña.</p>
         </div>
+
         <div class="tab-pane fade" id="delivery" role="tabpanel">
-            <p>Contenido de la tercera pestaña.</p>
+            <label>Pendientes</label>
+            <table class="table table-bordered border-primary">
+    <thead>
+        <tr>
+            <th scope="col">Num Pedido</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripcion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Ramiro Blanco </td>
+            <td>Milanesa con papas fritas </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Tomas Avalos</td>
+            <td>Canelones</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td >Claudio Blanco</td>
+            <td >Hamburguesa</td>
+        </tr>
+    </tbody>
+</table>
+
+                        <label>En Preparacion</label>
+            <table class="table table-bordered border-primary">
+    <thead>
+        <tr>
+            <th scope="col">Num Pedido</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripcion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Ramiro Blanco </td>
+            <td>Milanesa con papas fritas </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Tomas Avalos</td>
+            <td>Canelones</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td >Claudio Blanco</td>
+            <td >Hamburguesa</td>
+        </tr>
+    </tbody>
+</table>
+
+
+                        <label>Pendientes</label>
+            <table class="table table-bordered border-primary">
+    <thead>
+        <tr>
+            <th scope="col">Num Pedido</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripcion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Ramiro Blanco </td>
+            <td>Milanesa con papas fritas </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Tomas Avalos</td>
+            <td>Canelones</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td >Claudio Blanco</td>
+            <td >Hamburguesa</td>
+        </tr>
+    </tbody>
+</table>
+
+
         </div>
+            <br />
     </div>
 </div>
+
+    
+
+  
 
 
 </asp:Content>
