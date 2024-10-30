@@ -11,7 +11,7 @@ namespace AppResto
 {
 
 
-    public partial class Insumos
+    public partial class Productos
     {
 
         /// <summary>

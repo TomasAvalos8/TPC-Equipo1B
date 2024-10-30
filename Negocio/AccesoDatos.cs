@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
-namespace AppResto.modelos
+namespace Negocio
 {
     public class AccesoDatos
     {
@@ -18,7 +18,7 @@ namespace AppResto.modelos
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS01; database=AppResto; integrated security=true");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=AppResto; integrated security=true");
             comando = new SqlCommand();
         }
 

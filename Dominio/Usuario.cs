@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace AppResto.Dominio
+namespace Dominio
 {
     public enum TipoUsuario
     {

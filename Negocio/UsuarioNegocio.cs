@@ -1,12 +1,12 @@
-﻿using AppResto.Dominio;
-using AppResto.modelos;
+﻿
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Dominio;
 
-
-namespace AppResto.Negocio
+namespace Negocio
 {
     public class UsuarioNegocio
     {
