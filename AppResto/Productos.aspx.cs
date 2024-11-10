@@ -11,6 +11,8 @@ namespace AppResto
 {
     public partial class Productos : System.Web.UI.Page
     {
+   
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -18,6 +20,11 @@ namespace AppResto
             dgvProductos.DataSource = negocio.listar();
             dgvProductos.DataBind();
 
+        }
+
+        protected void btnAgregar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("FormularioProducto.aspx", false); 
         }
     }
 }

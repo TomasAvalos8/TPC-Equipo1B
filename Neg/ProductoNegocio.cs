@@ -8,15 +8,14 @@ using System.Xml.Linq;
 using Dominio;
 
 
-
 namespace Negocio
 {
     public class ProductoNegocio
     {
 
-        public List<Productos> listar()
+        public List<Producto> listar()
         {
-            List<Productos> lista = new List<Productos>();
+            List<Producto> lista = new List<Producto>();
             AccesoDatos datos = new AccesoDatos();
 
             try
@@ -26,7 +25,7 @@ namespace Negocio
 
                 while (datos.Lector.Read())
                 {
-                    Productos aux = new Productos();
+                    Producto aux = new Producto();
                     aux.Id = (int)datos.Lector["Id"];
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
@@ -48,7 +47,7 @@ namespace Negocio
         }
 
 
-        public void agregarConSP(Productos nuevo)
+        public void agregarConSP(Producto nuevo)
         {
             AccesoDatos datos = new AccesoDatos();
 
